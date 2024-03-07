@@ -14,7 +14,7 @@ const ingredients = [
 //   ingedientElem.classList.add('item');
 //   ingridientsListRef.appendChild(ingedientElem);
 // });
-// якщо потрібно огорнути функцією (хоча навіщо), то -> -> -> 
+
 function createIngredients() {
   const ingridientsListRef = document.querySelector('#ingredients');
   const ingridientsArray = [];

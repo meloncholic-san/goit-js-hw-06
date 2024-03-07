@@ -4,7 +4,7 @@ const refs = {
 
 let categoryNumber = 0;
 
-[...refs.category.children].forEach(child => {
+[...refs.category.children].forEach(() => {
     categoryNumber += 1;
 });
 console.log(`Number of categories: ${categoryNumber}`);
